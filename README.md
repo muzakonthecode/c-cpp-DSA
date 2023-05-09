@@ -2,8 +2,8 @@
 
 ## Resources:
 
-        [Data Structures and Algorithms in C](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+Csrc=sac)
-        [Advanced Data Structures and Algorithms in C](https://www.udemy.com/course/data-structures-and-algorithms-in-c-2/?kw=advanced+data+stru&src=sac)
+        1- https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac
+        2- https://www.udemy.com/course/data-structures-and-algorithms-in-c-2/?kw=advanced+data+stru&src=sac
 
 ## Exercises:
 
