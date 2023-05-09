@@ -2,7 +2,7 @@
 
 ## Resources:
 
-        1- [](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&)src=sac
+        1- <a href="https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac"></a>
         2- [](https://www.udemy.com/course/data-structures-and-algorithms-in-c-2/?kw=advanced+data+stru&src=sac)
 
 ## Exercises:
