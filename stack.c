@@ -5,14 +5,20 @@
 - stack implementation using arrays.
 - important!: stackoverflow and stackunderflow.
 */
+
+// globals
 int stack[100], top = -1, size;
 
+/**
+ * push(): inserts an element into the stack
+ * return: Does not return a value
+ */
 void push(int elem)
 {
     // checking for stackoverflow condition
     if (size == top + 1)
     {
-        printf("Ooops! STACKOVERFLOW.");
+        printf("Ooops! STACKOVERFLOW.\n");
     }
     else
     {
@@ -22,12 +28,16 @@ void push(int elem)
     }
 }
 
+/**
+ * pop(): deletes the last element from the stack
+ * return: Does not return a value
+ */
 void pop()
 {
     // checking for stackunderflow condition
     if (top == -1)
     {
-        printf("Ooops! STACKUNDERFLOW.");
+        printf("Ooops! STACKUNDERFLOW.\n");
     }
     else
     {
@@ -36,6 +46,31 @@ void pop()
     }
 }
 
+/**
+ * display(): prints the elements of the stack
+ * return: Does not return a value
+ */
+void display()
+{
+    // checking for stackunderflow condition
+    if (top == -1)
+    {
+        printf("Ooops! STACKUNDERFLOW, No elements.\n");
+    }
+    else
+    {
+        printf("The elements are: \n");
+        for (int i = top; i >= 0; i--)
+        {
+            printf("%d\n", i);
+        }
+    }
+}
+
+/**
+ * main(): Main Function
+ * Return: 0 for Success
+ */
 int main()
 {
     int choice, op, elem;
@@ -44,7 +79,7 @@ int main()
 
     do
     {
-        printf("Choose a Method: *1- Push, 2- Pop*\n");
+        printf("Choose a Method:\n 1- Push\n 2- Pop\n 3- Display\n");
         scanf("%d", &choice);
 
         switch (choice)
@@ -59,12 +94,16 @@ int main()
             pop();
             break;
 
+        case 3:
+            display();
+            break;
+
         default:
             printf("Unsupported Method.");
             break;
         }
 
-        printf("Do you wish to Continue? *1- Yes, 2- No*");
+        printf("Do you wish to Continue?\n 1- Yes\n 2- No\n");
         scanf("%d", &op);
 
     } while (op == 1);
