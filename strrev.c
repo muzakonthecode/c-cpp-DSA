@@ -64,7 +64,7 @@ int main()
         output[i] = pop();
     }
 
-    printf("The output string is:\n");
+    printf("The output string is: ");
     for (int i = 0; i <= strlen(input); i++)
     {
         printf("%c", output[i]);
