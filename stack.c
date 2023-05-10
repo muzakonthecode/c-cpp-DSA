@@ -11,6 +11,7 @@ int stack[100], top = -1, size;
 
 /**
  * push(): inserts an element into the stack
+ * @elem: an integer value to be pushed as an element
  * return: Does not return a value
  */
 void push(int elem)

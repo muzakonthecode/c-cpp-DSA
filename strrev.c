@@ -12,6 +12,7 @@ char output[40];
 
 /**
  * push(): inserts an element into the stack
+ * @elem: an character value to be pushed as an element
  * return: Does not return a value
  */
 void push(char elem)
