@@ -1,5 +1,7 @@
 # Data Structures and Algorithms With C!
 
+<img align="center" src="https://user-images.githubusercontent.com/38081852/67428127-f16e4e80-f5b3-11e9-87db-a420da8e799f.png" />
+
 ## Resources:
 
         1- https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac
