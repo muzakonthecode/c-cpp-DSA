@@ -7,7 +7,7 @@
 
 ## Exercises:
 
-1. [**Array Insertion**](./array_insert.c):
+1.  [**Array Insertion**](./array_insert.c):
 
         The steps to solve the problem:
 
@@ -16,7 +16,7 @@
           3 - Then shift the array elements from this position to one position forward(towards right), and do this for all the other elements next to pos.
           4 - Insert the element x now at the position pos, as this is now empty.
 
-1. [**String Reversing**](./strrev.c):
+1.  [**String Reversing**](./strrev.c):
 
         The steps to solve the problem:
 

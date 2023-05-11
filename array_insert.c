@@ -1,7 +1,16 @@
+/*
+- inserting elements into an array.
+*/
+
 #include <stdio.h>
 
+// globals
 int arr[100], n, elem, pos;
 
+/**
+ * insert(): deletes the last element from the stack
+ * return: Does not return a value
+ */
 void insert()
 {
     pos = pos - 1;
@@ -13,6 +22,10 @@ void insert()
     arr[pos] = elem;
 }
 
+/**
+ * main(): Main Function
+ * Return: 0 for Success
+ */
 int main()
 {
     printf("Enter the size of the array: ");
@@ -36,8 +49,3 @@ int main()
 
     return 0;
 }
-
-/*
-Before: 2
-After : 0
-*/

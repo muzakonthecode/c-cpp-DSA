@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <string.h>
-
 /*
 - reversing a string using stack.
 */
+
+#include <stdio.h>
+#include <string.h>
 
 // globals
 int stack[100], top = -1, size = 100;
