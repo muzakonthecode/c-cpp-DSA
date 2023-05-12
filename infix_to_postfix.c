@@ -73,9 +73,9 @@ int precedence(char character)
 
 /**
  * main(): Main Function
- * return: Does not return a value
+ * return: 0 for Success
  */
-void main()
+int main()
 {
     char input[123], output[123];
     int j = -1, i;
@@ -124,4 +124,6 @@ void main()
         printf("Do you wish to Continue?\n 1- Yes\n 2- No\n");
         scanf("%d", &choice);
     } while (choice == 1);
+
+    return 0;
 }
