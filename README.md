@@ -35,3 +35,17 @@
               1. If the current character is a opening parentheses (‘(‘) then push it to stack.
               2. If the current character is a closing parentheses (‘)’) then pop from stack and if the popped character is the matching opening parentheses then fine else parentheses are not balanced.
           3 - After complete traversal, if there is some opening parentheses left in stack then “Unbalanced.”
+
+4.  [**Infix to Postfix**](./infix_to_postfix.c):
+
+        The steps to solve the problem:
+          1 - Traversing the given expression from left to right should begin.
+          2 - Just output the scanned character if it is an operand.
+          3 - Else:
+              1. If the operand's precedence is greater than the operator's precedence in the stack (or the stack is empty or has'('), then push the operator into the stack.
+              2. Else, Any operator with more or equal precedence than the traversed operator are popped. Push this scanned operator after you pop them. (Stop and push the scanned operator on the stack if we encounter a parenthesis during popping.)
+          4 - Push the scanned character to the stack if it is a '('.
+          5 - If the scanned character is a ')', pop the stack and output it until another '(' appears, then eliminate both the parentheses.
+          6 - Steps 2 through 6 should now be repeated until the entire infix, i.e. entire characters, is scanned.
+          7 - Printing results.
+          8 - Pop and print until the stack is not empty.

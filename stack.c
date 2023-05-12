@@ -70,7 +70,7 @@ void display()
 
 /**
  * main(): Main Function
- * Return: 0 for Success
+ * return: 0 for Success
  */
 int main()
 {
