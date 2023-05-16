@@ -1,5 +1,5 @@
 /*
-- linked list: insertion at the beginning
+- linked lists: insertion at the beginning
 */
 
 #include <stdio.h>

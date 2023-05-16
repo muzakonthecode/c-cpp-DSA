@@ -49,3 +49,11 @@
           6 - Steps 2 through 6 should now be repeated until the entire infix, i.e. entire characters, is scanned.
           7 - Printing results.
           8 - Pop and print until the stack is not empty.
+
+5.  [**Linked lists: Insertion at the beginning**](./insertion_at_the_beg.c):
+
+        The steps to solve the problem:
+          1 - Allocate a new node (say temp).
+          2 - Put the required data into temp.
+          3 - The ‘next’ pointer of the node should be pointed to the current head.
+          4 - Now make the head pointer point to temp.
