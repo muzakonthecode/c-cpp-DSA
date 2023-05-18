@@ -57,3 +57,13 @@
           2 - Put the required data into temp.
           3 - The ‘next’ pointer of the node should be pointed to the current head.
           4 - Now make the head pointer point to temp.
+
+6.  [**Linked lists: Insertion at the end**](./insertion_at_the_end.c):
+
+        The steps to solve the problem:
+          1 - Allocate memory for a new node (say temp) and create a pointer (say last) which points the head of the linked list.
+          2 - Set the data to be entered in temp.
+          3 - temp will be the last node. Hence the next pointer of temp will point to null.
+          4 - If linked list is empty make temp as the head.
+          5 - Traverse using the last pointer till we reach the end node of the linked list.
+          6 - Now, point the next node of last to temp.
