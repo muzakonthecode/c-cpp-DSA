@@ -67,3 +67,12 @@
           4 - If linked list is empty make temp as the head.
           5 - Traverse using the last pointer till we reach the end node of the linked list.
           6 - Now, point the next node of last to temp.
+
+7.  [**Linked lists: Insertion after a specific node**](./insertion_after_spceific.c):
+
+        The steps to solve the problem:
+          1 - Firstly, check if the given previous node is NULL or not.
+          2 - Then, allocate a new node (say temp) and
+          3 - Assign the data to temp.
+          4 - And then make the next of temp as the next of the previous node.
+          5 - Finally, move the next of the previous node to point to temp.
