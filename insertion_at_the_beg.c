@@ -61,7 +61,7 @@ int main()
         temp1 = temp1->next;
     }
 
-    printf("%d->", temp1->data);
+    printf("%d->\n", temp1->data);
 
     return 0;
 }

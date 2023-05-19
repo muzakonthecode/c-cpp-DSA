@@ -54,7 +54,7 @@ int main()
     {
         temp1 = temp1->next;
     }
-    
+
     temp1->next = new_node;
     temp1 = start;
 
@@ -66,7 +66,7 @@ int main()
         temp1 = temp1->next;
     }
 
-    printf("%d->NULL", temp1->data);
+    printf("%d->NULL\n", temp1->data);
 
     return 0;
 }
