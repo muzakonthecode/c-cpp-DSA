@@ -76,3 +76,27 @@
           3 - Assign the data to temp.
           4 - And then make the next of temp as the next of the previous node.
           5 - Finally, move the next of the previous node to point to temp.
+
+8.  [**Linked lists: Deletion at the beginning**](./deletion_at_the_beg.c):
+
+        The steps to solve the problem:
+          1 - Move the current start from 1st node to the next node
+          2 - Delete the first node using the free method
+          3 - If the Linked List is empty that it is not possible to delete
+
+9.  [**Linked lists: Deletion at the end**](./deletion_at_the_end.c):
+
+        The steps to solve the problem:
+          1 - If the Linked list has only one node then make start node null
+          2 - Else traverse to the end of the linked list
+          3 - While traversing store the previous node i.e. 2nd last node
+          4 - Change the next of 2nd last node to null
+          5 - Free/delete memory of the the last node
+          6 - Now, 2nd last node becomes the last node.
+
+10.  [**Linked lists: Deleting a specific node**](./deleting_a_specific.c):
+
+        The steps to solve the problem:
+          1 - Find the previous node of the node to be deleted.
+          2 - Change the next of the previous node.
+          3 - Free memory for the node to be deleted.
