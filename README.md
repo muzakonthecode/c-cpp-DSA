@@ -96,7 +96,7 @@
 
 10.  [**Linked lists: Deleting a specific node**](./deleting_a_specific.c):
 
-        The steps to solve the problem:
-          1 - Find the previous node of the node to be deleted.
-          2 - Change the next of the previous node.
-          3 - Free memory for the node to be deleted.
+         The steps to solve the problem:
+           1 - Find the previous node of the node to be deleted.
+           2 - Change the next of the previous node.
+           3 - Free memory for the node to be deleted.
