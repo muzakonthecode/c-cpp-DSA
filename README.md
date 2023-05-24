@@ -4,8 +4,9 @@
 
 ## Resources:
 
-        1- https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac
-        2- https://www.udemy.com/course/data-structures-and-algorithms-in-c-2/?kw=advanced+data+stru&src=sac
+1- ![Udemy: Data Structuers and algorithms in C for beginners](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac)
+2- ![Youtube: Data Structures in C/C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+3- ![Algorithms and Data Structures: An Approach in C by Charles F. Bowman](https://www.amazon.com/Algorithms-Data-Structures-Approach-C/dp/0195174801)
 
 ## Exercises:
 
@@ -94,9 +95,9 @@
           5 - Free/delete memory of the the last node
           6 - Now, 2nd last node becomes the last node.
 
-10.  [**Linked lists: Deleting a specific node**](./deleting_a_specific.c):
+10. [**Linked lists: Deleting a specific node**](./deleting_a_specific.c):
 
-         The steps to solve the problem:
-           1 - Find the previous node of the node to be deleted.
-           2 - Change the next of the previous node.
-           3 - Free memory for the node to be deleted.
+        The steps to solve the problem:
+          1 - Find the previous node of the node to be deleted.
+          2 - Change the next of the previous node.
+          3 - Free memory for the node to be deleted.
