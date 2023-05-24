@@ -4,9 +4,9 @@
 
 ## Resources:
 
-1- ![Udemy: Data Structuers and algorithms in C for beginners](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac)
-2- ![Youtube: Data Structures in C/C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
-3- ![Algorithms and Data Structures: An Approach in C by Charles F. Bowman](https://www.amazon.com/Algorithms-Data-Structures-Approach-C/dp/0195174801)
+  1- ![Udemy: Data Structuers and algorithms in C for beginners](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac)
+  2- ![Youtube: Data Structures in C/C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+  3- ![Algorithms and Data Structures: An Approach in C by Charles F. Bowman](https://www.amazon.com/Algorithms-Data-Structures-Approach-C/dp/0195174801)
 
 ## Exercises:
 
