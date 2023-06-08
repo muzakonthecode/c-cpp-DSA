@@ -1,11 +1,11 @@
-# Data Structures and Algorithms With C!
+# Data Structures and Algorithms With C/C++!
 
-<img align="center" src="https://user-images.githubusercontent.com/38081852/67428127-f16e4e80-f5b3-11e9-87db-a420da8e799f.png" />
+<img align="center" src="https://github.com/muzakonthecode/c-cpp-DSA/blob/master/Untitled%20design.png" />
 
 ## Resources:
 
 - ![Udemy: Data Structuers and algorithms in C for beginners](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac)
-- ![Youtube: Data Structures in C/C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+- ![Youtube: Data Structures and Algorithms](https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
 - ![Algorithms and Data Structures: An Approach in C by Charles F. Bowman](https://www.amazon.com/Algorithms-Data-Structures-Approach-C/dp/0195174801)
 
 ## Exercises:
