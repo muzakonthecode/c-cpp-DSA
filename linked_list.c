@@ -3,10 +3,10 @@
 - the end node will always have the second field as NULL
 - Dynamic Memory allocation
 - You cannot randomly access nodes
-- typedef node {
+- typedef struct Node {
     int data;
-    Node *next;
-  } Node;
+    struct Node *next;
+  } node;
 */
 
 #include <stdio.h>
