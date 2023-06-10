@@ -6,7 +6,7 @@
 - typedef struct Node {
     int data;
     struct Node *next;
-  } node;
+    } node;
 */
 
 #include <iostream>
@@ -32,6 +32,39 @@ void insert(int new_data)
     new_node->data = new_data;
     new_node->next = head;
     head = new_node;
+}
+
+/**
+ * Deletes a node with the given data from a linked list.
+ *
+ * @param data data of node to be deleted
+ *
+ * @return void
+ *
+ * @throws None
+ */
+void delete_node(int data)
+{
+    node *curr = head;
+    node *prev = NULL;
+    while (curr != NULL)
+    {
+        if (curr->data == data)
+        {
+            if (prev == NULL)
+            {
+                head = curr->next;
+            }
+            else
+            {
+                prev->next = curr->next;
+            }
+            free(curr);
+            return;
+        }
+        prev = curr;
+        curr = curr->next;
+    }
 }
 
 /**
@@ -63,6 +96,8 @@ int main()
     cout << "The linked list is: ";
     display();
     cout << endl;
+    delete_node(1);
+    display();
 
     return 0;
 }
