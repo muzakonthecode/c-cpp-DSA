@@ -12,14 +12,21 @@ typedef struct Node
 node *head = NULL;
 
 /**
- * insert(): inserts a new node into the linked list
- * return: Does not return a value
+ * Inserts a new node at the beginning of the linked list.
+ * @param new_data The data to be stored in the new node.
  */
 void insert(int new_data)
 {
+    // Allocate memory for the new node.
     node *new_node = (node *)malloc(sizeof(node));
+
+    // Store the data in the new node.
     new_node->data = new_data;
+
+    // Set the new node's next pointer to the current head of the list.
     new_node->next = head;
+
+    // Set the head of the list to point to the new node.
     head = new_node;
 }
 
@@ -57,36 +64,32 @@ void delete_node(int data)
 }
 
 /**
- * display(): prints out the linked list's content
- * return: Does not return a value
+ * displayList(): prints the contents of the linked list
+ * Return: void
  */
-void display()
+void displayList()
 {
-    node *ptr;
-    ptr = head;
+    Node *currNode = head;
 
-    while (ptr != NULL)
+    while (currNode != NULL)
     {
-        cout << ptr->data << " ";
-        ptr = ptr->next;
+        cout << currNode->data << " ";
+        currNode = currNode->next;
     }
 }
 
-/**
- * main(): Main Function
- * return: 0 for Success
- */
 int main()
 {
     insert(0);
     insert(1);
     insert(3);
 
-    cout << "The linked list is: ";
-    display();
+    cout << "Linked list: ";
+    displayList();
     cout << endl;
+
     delete_node(1);
-    display();
+    displayList();
 
     return 0;
 }
