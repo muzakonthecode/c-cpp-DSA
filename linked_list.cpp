@@ -89,7 +89,8 @@ int main()
     cout << endl;
 
     delete_node(1);
+    cout << "after deletion: ";
     displayList();
-
+    cout << endl;
     return 0;
 }
