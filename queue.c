@@ -1,11 +1,3 @@
-/*
-- FIFO: first in first out
-- basic operations: insertion, deletion
-- keywords: enqueue(ins), dequeue(del), front, rear
-- in frontend you have to dequeue, in rear-end you have to enqueue
-- implementation will be with arrays
-*/
-
 #include <stdio.h>
 
 // Constants

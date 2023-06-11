@@ -1,7 +1,3 @@
-/*
-- balanced parentheses using stack.
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -46,7 +42,7 @@ void pop()
 }
 
 /**
- * check(): traverses through the string and checks for parentheses if it's an opening parentheses it pushes it into the stack else pops it 
+ * check(): traverses through the string and checks for parentheses if it's an opening parentheses it pushes it into the stack else pops it
  * return: Does not return a value
  */
 void check()

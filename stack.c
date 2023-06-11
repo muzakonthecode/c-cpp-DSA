@@ -1,9 +1,3 @@
-/*
-- LIFO: Last in First out.
-- stack implementation using arrays.
-- important!: stackoverflow and stackunderflow.
-*/
-
 #include <stdio.h>
 
 // globals

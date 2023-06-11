@@ -1,14 +1,3 @@
-/*
-- node: data + ptr->next
-- the end node will always have the second field as NULL
-- Dynamic Memory allocation
-- You cannot randomly access nodes
-- typedef struct Node {
-    int data;
-    struct Node *next;
-    } node;
-*/
-
 #include <iostream>
 
 using namespace std;

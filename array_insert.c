@@ -1,7 +1,3 @@
-/*
-- inserting elements into an array.
-*/
-
 #include <stdio.h>
 
 // globals

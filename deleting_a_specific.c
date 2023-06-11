@@ -1,7 +1,3 @@
-/*
-- linked lists: deleting a specific node
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 

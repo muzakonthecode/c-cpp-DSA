@@ -1,7 +1,3 @@
-/*
-- linked lists: insertion after specific node
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
