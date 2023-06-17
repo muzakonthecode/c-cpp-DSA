@@ -6,7 +6,7 @@
 
 - ![Udemy: Data Structuers and algorithms in C for beginners](https://www.udemy.com/course/data-structures-and-algorithms-in-c/?kw=Data+Structures+and+Algorithms+C&src=sac)
 - ![Youtube: Data Structures and Algorithms](https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
-- ![Data Structures and Algorithms - Annotated Reference with Examples By Granville Barne & Luca Del Tongo](https://www.mta.ca/~rrosebru/oldcourse/263114/Dsa.pdf)
+- ![Book: Data Structures and Algorithms - Annotated Reference with Examples By Granville Barne & Luca Del Tongo](https://www.mta.ca/~rrosebru/oldcourse/263114/Dsa.pdf)
 
 ## Exercises:
 
