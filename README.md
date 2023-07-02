@@ -1,4 +1,4 @@
-# Data Structures and Algorithms!
+# Data Structures and Algorithms
 
 <img align="center" src="https://github.com/muzakonthecode/My-DSA/blob/master/banner.png" />
 
