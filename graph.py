@@ -8,9 +8,8 @@ def add_vertex(v):
         vertices_no = vertices_no + 1
         graph[v] = []
 
+
 # Add an edge between vertex v1 and vertex v2 with edge weight e
-
-
 def add_edge(v1, v2, e):
     global graph
     # Check if v1 and v2 are in the graph
@@ -22,9 +21,8 @@ def add_edge(v1, v2, e):
         temp = [v2, e]
         graph[v1].append(temp)
 
+
 # Print the graph
-
-
 def print_graph():
     global graph
     for vertex in graph:
