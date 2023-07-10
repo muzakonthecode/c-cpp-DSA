@@ -34,20 +34,19 @@ def print_graph():
 
 # driver code
 graph = {}
-# stores the number of vertices in the graph
+
 vertices_no = 0
 add_vertex(1)
 add_vertex(2)
 add_vertex(3)
 add_vertex(4)
-# Add the edges between the vertices by specifying
-# the from and to vertex along with the edge weights.
+# Add the edges between the vertices by specifying the from and to vertex along
+# with the edge weights.
 add_edge(1, 2, 1)
 add_edge(1, 3, 1)
 add_edge(2, 3, 3)
 add_edge(3, 4, 4)
 add_edge(4, 1, 5)
 print_graph()
-# Reminder: the second element of each list inside the dictionary
-# denotes the edge weight.
+
 print("Internal representation: ", graph)
